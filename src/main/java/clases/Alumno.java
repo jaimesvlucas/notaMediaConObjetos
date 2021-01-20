@@ -25,7 +25,7 @@ public class Alumno {
     public void setNombre(String nombre) {
         this.nombre = nombre;
         this.notaMedia = (this.nota1+this.nota2+this.nota3)/3;
-        if(notaMedia>=5)this.color="verde";
+        if(notaMedia>=5)this.color="green";
         else this.color="red";
     }
 
